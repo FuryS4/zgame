@@ -1,0 +1,163 @@
+html, body
+{
+    font-family:Verdana;
+    font-size:85%;
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow:hidden;
+    width:100%;
+}
+a:link
+{
+    text-decoration:none;
+    color:white;
+}
+a:visited
+{
+    text-decoration:none;
+    color:white;
+}
+a:active
+{
+    text-decoration:none;
+    color:white;
+}
+/* ALLGEMEIN */
+.title
+{
+    background:linear-gradient(#262626, #212121);
+    background:#212121;
+    padding:10px;
+    font-weight:bold;
+    color:white;
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+}
+
+/* MAIN LEFT */
+#main_left
+{
+    float:left;
+    width:17%;
+    height:100%;
+    background:orange;
+}
+
+#logo, #charinfo, #navigation, #footer
+{
+    float:left;
+    width:100%;
+}
+#logo
+{
+    height:10%;
+    background:#212121;
+}
+.img_logo
+{
+    height:64%;
+}
+#charinfo
+{
+    height:25%;
+}
+#navigation
+{
+    height:50%;
+}
+.nav_icon{height:2.5%;}
+#footer
+{
+    height:16%;
+}
+#footer, #navigation, #charinfo
+{
+    float:left;
+    background:#303030;
+}
+.inner_logo, .inner_charinfo, .inner_footer
+{
+    float:left;
+    padding:5%;
+    width:78%;
+    color:white;
+}
+.inner_charinfo
+{
+    margin:5%;
+    border:1px solid #494949;
+    background:#212121;
+    box-shadow:0px 0px 3px black;
+}
+.inner_charinfo_icon{height:5%;}
+.inner_navigation
+{
+    color:white;
+}
+.inner_navigation_highlight
+{
+    padding:5%;
+    background:#212121;
+}
+.inner_navigation_normal
+{
+    padding:5%;
+}
+.inner_footer
+{
+    margin:5%;
+    border:1px solid #494949;
+    background:#212121;
+    box-shadow:0px 0px 3px black;
+    height:30%;
+}
+.inner_navigation_normal:hover
+{
+    background:#3f3f3f;
+    -webkit-transition:700ms ease;
+    -moz-transition:700ms ease;
+    -o-transition:700ms ease;
+    transition:700ms ease;
+}
+/* MAIN RIGHT */
+#main_right
+{
+    float:left;
+    width:83%;
+    height:100%;
+    background:green;
+}
+
+#header, #content
+{
+    float:left;
+    width:100%;
+}
+#header
+{
+    height:10%;
+    background:#ffffff;
+}
+#content
+{
+    height:90%;
+    background:#ededed;
+}
+.inner_header, .inner_content
+{
+    padding:1%;
+}
+.inner_content
+{
+    margin:1%;
+    border:1px solid #f7f7f7;
+    background:#ffffff;
+    box-shadow:0px 0px 1px grey;
+    height:92%;
+}
+.inner_header
+{
+    padding:2.5%;
+    margin-left:70%;
+}

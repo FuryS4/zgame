@@ -1,0 +1,30 @@
+#main_inventar, #content_inventar
+{
+	border:1px solid grey;
+	box-shadow:0px 0px 2px grey;
+	background:linear-gradient(#f2f2f2, #eaeaea);
+	border-radius:3px;
+}
+#main_inventar
+{
+	height:70%;
+}
+#content_inventar
+{
+	height:80%;
+}
+.inner_main_inventar, .inner_content_inventar
+{
+	padding:1%;
+}
+.inventar_slot
+{
+	color:#5b5b5b;
+	float:left;
+	height:60px;
+	width:60px;
+	margin:0.2%;
+	border:1px solid white;
+	box-shadow:0px 0px 1px grey;
+	background:#e2e2e2;
+}

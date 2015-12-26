@@ -1,0 +1,31 @@
+#register_content
+{
+	background-image:url("../images/register_wp.jpg");
+	text-align:center;
+	box-shadow:0px 0px 1px grey;
+	height:85%;
+	padding:20px;
+}
+
+.textbox
+{
+	width:20%;
+	margin-top:0.5%;
+	padding:6px;
+	box-shadow:0px 0px 7px black;
+	border:1px solid white;
+	border-radius:3px;
+}
+.button
+{
+	width:20%;
+	margin-top:1%;
+	padding:10px;
+	box-shadow:0px 0px 5px black;
+	border:1px solid #175668;
+	border-radius:3px;
+	background:linear-gradient(#edb255, #f9a216);
+	font-weight:bold;
+	color:White;
+	text-shadow:0px 0px 3px black;
+}
