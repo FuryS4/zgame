@@ -13,7 +13,6 @@
 
 Route::get('/', 'HomeController@index');
 
-//Route::get('home/charakter', 'HomeController@charakter');
 
 /*
 |--------------------------------------------------------------------------
