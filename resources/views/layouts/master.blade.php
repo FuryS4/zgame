@@ -31,13 +31,13 @@
                     <div class="inner_navigation">
         				<div class="inner_navigation_highlight"><a href="/home"><img src="{{ asset('assets/images/home-icon.png') }}" class="nav_icon"> Startseite<br></div>
         				<div class="inner_navigation_normal"><a href="/home/charakter"><img src="{{ asset('assets/images/person-icon.png') }}" class="nav_icon"> Charakter</a></div>
-        				<div class="inner_navigation_normal"><a href="inventar.php"><img src="{{ asset('assets/images/inventory-icon.png') }}" class="nav_icon"> Inventar</a></div>
-        				<div class="inner_navigation_normal"><a href="marktplatz.php"><img src="{{ asset('assets/images/market-icon.png') }}" class="nav_icon"> Marktplatz</a></div>
-        				<div class="inner_navigation_normal"><a href="training.php"><img src="{{ asset('assets/images/training-icon.png') }}" class="nav_icon"> Training</a></div>
-        				<div class="inner_navigation_normal"><a href="reisen.php"><img src="{{ asset('assets/images/reisen-icon.png') }}" class="nav_icon"> Reisen</a></div>
-        				<div class="inner_navigation_normal"><a href="crew.php"><img src="{{ asset('assets/images/crew-icon.png') }}" class="nav_icon"> Crew</a></div>
-        				<div class="inner_navigation_normal"><a href="einstellungen.php"><img src="{{ asset('assets/images/settings-icon.png') }}" class="nav_icon"> Einstellungen</a></div>
-        				<div class="inner_navigation_normal"><a href="inc/logout.php"><img src="{{ asset('assets/images/logout-icon.png') }}" class="nav_icon"> Abmelden</a></div>
+        				<div class="inner_navigation_normal"><a href="/home/inventar"><img src="{{ asset('assets/images/inventory-icon.png') }}" class="nav_icon"> Inventar</a></div>
+        				<div class="inner_navigation_normal"><a href="/home/marktplatz"><img src="{{ asset('assets/images/market-icon.png') }}" class="nav_icon"> Marktplatz</a></div>
+        				<div class="inner_navigation_normal"><a href="/home/training"><img src="{{ asset('assets/images/training-icon.png') }}" class="nav_icon"> Training</a></div>
+        				<div class="inner_navigation_normal"><a href="/home/reisen"><img src="{{ asset('assets/images/reisen-icon.png') }}" class="nav_icon"> Reisen</a></div>
+        				<div class="inner_navigation_normal"><a href="/home/crew"><img src="{{ asset('assets/images/crew-icon.png') }}" class="nav_icon"> Crew</a></div>
+        				<div class="inner_navigation_normal"><a href="/home/einstellungen"><img src="{{ asset('assets/images/settings-icon.png') }}" class="nav_icon"> Einstellungen</a></div>
+        				<div class="inner_navigation_normal"><a href="{{ url('/logout') }}"><img src="{{ asset('assets/images/logout-icon.png') }}" class="nav_icon"> Abmelden</a></div>
 			        </div>
                 @endif
             </div>
