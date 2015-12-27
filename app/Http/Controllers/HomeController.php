@@ -27,9 +27,40 @@ class HomeController extends Controller
         return view('home');
     }
     
-    public function show($site) 
+    public function charakter() 
     {
-        dd($site);
-        return view('home/' . $site);
+        return view('home.charakter');
     }
+    
+    public function crew() 
+    {
+        return view('home.crew');
+    }
+    
+    public function einstellungen() 
+    {
+        return view('home.einstellungen');
+    }
+    
+    public function inventar() 
+    {
+        return view('home.inventar');
+    }   
+    
+    public function marktplatz() 
+    {
+        return view('home.marktplatz');
+    }
+    
+    public function reisen() 
+    {
+        return view('home.reisen');
+    }
+    
+    public function training() 
+    {
+        return view('home.training');
+    }
+    
+    
 }

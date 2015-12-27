@@ -33,5 +33,12 @@ Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
     Route::get('/home', 'HomeController@index');
+    Route::get('/home/charakter', 'HomeController@charakter');
+    Route::get('/home/crew', 'HomeController@crew');
+    Route::get('/home/einstellungen', 'HomeController@einstellungen');
+    Route::get('/home/inventar', 'HomeController@inventar');
+    Route::get('/home/marktplatz', 'HomeController@marktplatz');
+    Route::get('/home/reisen', 'HomeController@reisen');
+    Route::get('/home/training', 'HomeController@training');
 });
 
